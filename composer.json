@@ -8,5 +8,10 @@
             "name": "Dominique",
             "email": "dominique@chez-dominique.fr"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
 }
