@@ -9,7 +9,7 @@ final class EmailTest extends TestCase
     {
         $this->assertInstanceOf(
             Email::class,
-            Email::fromString('user@example.com')
+            Email::fromString('dominique@example.com')
         );
     }
 
@@ -23,8 +23,8 @@ final class EmailTest extends TestCase
     public function testCanBeUsedAsString(): void
     {
         $this->assertEquals(
-            'user@example.com',
-            Email::fromString('user@example.com')
+            'dominique@example.com',
+            Email::fromString('dominique@example.com')
         );
     }
 }
